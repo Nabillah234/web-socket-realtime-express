@@ -2,7 +2,7 @@ const messageBox = document.getElementById('messageBox');
 const messageInput = document.getElementById('messageInput');
 const sendButton = document.getElementById('sendButton');
 
-const socket = new WebSocket('ws://127.0.0.1:3000');
+const socket = new WebSocket('http://127.0.0.1:8000');
 
 socket.addEventListener('open', (event) => {
     appendMessage('Terhubung ke server');

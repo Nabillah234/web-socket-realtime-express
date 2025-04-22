@@ -4,7 +4,7 @@ const bodyParser = require('body-parser')
 const app = express()
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: false }))
-const port = 3000
+const port = 8000
 const hostName = '127.0.0.1'
 
 const {Sequelize} = require('sequelize')
